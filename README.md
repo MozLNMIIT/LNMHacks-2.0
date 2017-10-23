@@ -6,7 +6,7 @@
 * LNMHacks 2.0 is 24hrs theme based Hackathon in its second edition, where dreams become products and services.
 * An unforgettable hackathon this fall 2017; November 11-12 @LNMIIT
 
-`"Where your crazy ideas will become reality"`
+> "Where your crazy ideas will become reality"
 
 
 ## Getting Started with Contributing:
@@ -22,7 +22,7 @@ git branch <your_new_branch_name>
 ```
 git checkout <your_new_branch_name>
 ```
-4. Open up the project in your favorite code editor (e.g. Sublime Text 3,Atom etc).
+4. Open up the project in your favorite code editor (e.g. Sublime Text 3, Atom, etc).
 5. Make your changes.
 6. Git add and commit your changes.
 ```
