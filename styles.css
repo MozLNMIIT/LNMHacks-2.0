@@ -183,7 +183,7 @@ a img{
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/bg.jpg') center 30% no-repeat;
+  background: url('images/bg.png') center 30% no-repeat;
 /*  opacity: 0.8;*/
   background-size: cover;
 }
@@ -323,7 +323,7 @@ a img{
 
 .lnmhacks-wear-section {
       position: relative;
-      /*background: url('images/wear.jpg');*/
+      /*background: url('images/wear.png');*/
       background: #fff;
       background-repeat: no-repeat;
       min-height: 300px;
@@ -333,7 +333,7 @@ a img{
 @media (max-width: 450px) { 
     .lnmhacks-wear-section {
       position: relative;
-      /*background: url('images/wear.jpg');*/
+      /*background: url('images/wear.png');*/
       background: #fff;
       background-repeat: no-repeat;
       min-height: 900px;
@@ -424,7 +424,7 @@ a img{
 
 .lnmhacks-customized-section-image {
 
-  background: url('images/lnmiit.jpg');
+  background: url('images/lnmiit.png');
   background-size: cover;
   min-height: 600px;
 }
