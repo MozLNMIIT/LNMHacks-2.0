@@ -14,26 +14,30 @@
 ```
 git clone https://github.com/MozLNMIIT/LNMHacks-2.0.git
 ```
-2. Create a separate Git branch
+2. switch to the cloned project directory:
+```
+cd LNMHacks-2.0
+```
+3. Create a separate Git branch
 ```
 git branch <your_new_branch_name>
 ```
-3. Git checkout your branch
+4. Git checkout your branch
 ```
 git checkout <your_new_branch_name>
 ```
-4. Open up the project in your favorite code editor (e.g. Sublime Text 3,Atom etc).
-5. Make your changes.
-6. Git add and commit your changes.
+5. Open up the project in your favorite code editor (e.g. Sublime Text 3,Atom etc).
+6. Make your changes.
+7. Git add and commit your changes.
 ```
 git add <file_name>
 git commit -m <insert_commit_comment>
 ```
-7. Git push your changes as well as your new branch.
+8. Git push your changes as well as your new branch.
 ```
 git push -u origin <your_branch_name>
 ```
-8. Go to the GitHub repository and submit a Pull Request.
+9. Go to the GitHub repository and submit a Pull Request.
 
 ## Tracks
 * CYBROSX - Where X stands for Research, Development and Programming
