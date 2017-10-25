@@ -53,7 +53,8 @@
         </style>
 
 
-    	<title>LNMHacks 2017</title>
+        <title>LNMHacks 2017</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -75,12 +76,12 @@
 
                     <div class="lnmhacks-navigation-container">
                         <nav class="lnmhacks-navigation mdl-navigation">
-                            <a class="mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="index.html#about">
+                            <a class="mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="#about">
                                 About</a> 
-                            <a class= "mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="index.html#tracks">Tracks</a>
+                            <a class= "mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="#tracks">Tracks</a>
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="https://lnmhacks2.hackerearth.com/sprints/lnmhacks-20-1/faq/#faq" target="_blank">
                                 Faq</a> 
-                            <a class= "mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="index.html#gallery">Gallery</a>
+                            <a class= "mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="#gallery">Gallery</a>
                             <a class= "mdl-navigation__link mdl-typography--text-uppercase" data-scroll="" href="https://drive.google.com/file/d/0Bw3F3pEJQ5jXZWE0RGhaaFJTTGc/view" target="_blank">Sponsor Us</a>
                         </nav>
                     </div>
@@ -311,16 +312,32 @@
                 =====================================-->
                             <div class="row">
                                 <div class="col-sm-3">  
-                                    <img alt="mozilla" border="0" src="images/community/mozilla.png" width="170" height="160" style="margin-bottom: 40px;">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <img alt="mozilla" border="0" src="images/community/mozilla.png" width="170" height="160">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-3"> 
-                                    <img alt="CSI" border="0" src="images/community/csi.png" width="125" style="margin-bottom: 40px;">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <img alt="CSI" border="0" src="images/community/csi.png" width="125">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-3"> 
-                                    <img alt="WIE" border="0" src="images/community/wie.png" width="150" style="margin-bottom: 40px;">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <img alt="WIE" border="0" src="images/community/wie.png" width="150">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-3"> 
-                                    <img alt="Women Who Code" border="0" src="images/community/wwcd.jpg" width="180" height="160" style="margin-bottom: 40px;">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <img alt="Women Who Code" border="0" src="images/community/wwcd.jpg" width="180" height="160">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -517,7 +534,7 @@
                         </div>
                         <div class="mdl-cell mdl-cell--4-col">
 	                        <div class="mdl-mega-footer--right-section">
-		                        <a class="pk-light-font" href="index.html#top">Back to Top <i class="material-icons">expand_less</i></a>
+		                        <a class="pk-light-font" href="#top">Back to Top <i class="material-icons">expand_less</i></a>
 		                    </div>
 	                    </div>
                     </div>
@@ -539,10 +556,12 @@
 		</div>
         <script src="https://code.getmdl.io/1.2.1/material.min.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script> 
         <script src="assets/scrollreveal.min.js" type="text/javascript"></script> 
         <script src="assets/smooth-scroll.min.js" type="text/javascript"></script> 
         <script src="assets/custom.js" type="text/javascript"></script>
+        <script src="assets/scroll.js"></script>
 
          <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56286897-5"></script>
@@ -552,25 +571,6 @@
           gtag('js', new Date());
 
           gtag('config', 'UA-56286897-5');
-        </script>
-
-        <script>
-       //Smooth scrolling with links
-        $(document).ready(function () {
-            $('a[href^="#"]').on('click', function (e) 
-            {
-                e.preventDefault();
-       
-                 var target = this.hash;
-                 var $target = $(target);
-         
-                 $('html, body').stop().animate({
-                     'scrollTop': $target.offset().top
-                 }, 900, 'swing', function () {
-                     window.location.hash = target;
-                 });
-            });
-        });
         </script>
 	</body>
 </html>
