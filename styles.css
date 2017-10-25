@@ -394,6 +394,18 @@ a img{
   text-align: center;
 }
 
+.sponsors .lnmhacks-sponsors-section-image .col-sm-3:hover, .past_sponsor:hover{
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
+  box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
+}
+
+.lnmhacks-customized-section-text .row:last-child > .past_sponsor:nth-child(4) img {
+  transform: translateY(-50%);
+  top: 50%;
+  position: relative;
+}
+
 .lnmhacks-customized-section-text {
   
   margin-left: auto;
@@ -434,6 +446,8 @@ a img{
   background-size: cover;
   min-height: 400px;
 }
+
+.lnmhacks-sponsors-section-image 
 
 .lnmhacks-more-section {
   padding: 80px 0;
