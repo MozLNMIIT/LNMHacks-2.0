@@ -1,4 +1,4 @@
-s/**
+/**
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,9 @@ s/**
 body {
   margin: 0;
 }
-
+a:hover{
+  text-decoration:  none;
+}
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
