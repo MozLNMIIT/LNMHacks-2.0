@@ -14,23 +14,39 @@
 ```
 git clone https://github.com/MozLNMIIT/LNMHacks-2.0.git
 ```
-2. Create a separate Git branch
+2. switch to the cloned project directory:
+```
+cd LNMHacks-2.0
+```
+3. Create a separate Git branch
 ```
 git branch <your_new_branch_name>
 ```
-3. Git checkout your branch
+4. Git checkout your branch
 ```
 git checkout <your_new_branch_name>
 ```
-4. Open up the project in your favorite code editor (e.g. Sublime Text 3,Atom etc).
-5. Make your changes.
-6. Git add and commit your changes.
+5. Open up the project in your favorite code editor (e.g. Sublime Text 3,Atom etc).
+6. Make your changes.
+7. Git add and commit your changes.
 ```
 git add <file_name>
 git commit -m <insert_commit_comment>
 ```
-7. Git push your changes as well as your new branch.
+8. Git push your changes as well as your new branch.
 ```
 git push -u origin <your_branch_name>
 ```
-8. Go to the GitHub repository and submit a Pull Request.
+9. Go to the GitHub repository and submit a Pull Request.
+
+## Tracks
+* CYBROSX - Where X stands for Research, Development and Programming
+* IEEE (Institute of Electrical and Electronics Engineers) - IEEE's core purpose is to foster technological innovation and excellence for the benefit of humanity. The Student branch activities offer numerous educational, technical, and professional opportunities through * various events, talks and workshops to enhance the skill set of students.
+* Innovation and Incubation Center - Innovation Club is envisaged to network people, ideas, experiences & resources to galvanize the innovation community in LNMIIT. This club not only helps to nurture your ideas and encourage you to bring up business proposals but there is also an Incubation centre where in after rigorous evaluation of your idea the institute may provide you with the required facilities and perhaps you can even get funds for your project.
+* Phoenix - Phoenix club is not just a club – it is a hub where all potential minds of LNMIIT gather to bring something dynamic, a place where 2D things metamorphosize into 3-dimensional reality, with a view of catering the needs of students by giving opportunities to learn by doing things practically.
+
+## Clubs and Community Partners
+* Moz LNMIIT -
+* Computer Society of India LNMIIT - Computer Society of India Student Chapter at the LNM Institute of Information Technology, Jaipur was established in March 2013 under guidance of Asst. Prof. Vikas Bajpai. CSI student chapter of LNMIIT is a open forum that helps students through various programs like quizzes, talks, discussions, workshops and other events.
+* IEEE Women in Engineering LNMIIT Jaipur - IEEE Women In Engineering is the largest international professional organization dedicated to promoting women engineers and scientists and inspiring girls around the world to follow their academic interests to a career in engineering. India viewed as a potential powerhouse of innovations, is no exception. The fact, that, institutes of scientific learning are open to all the citizens of a country, but potential females still do not come up and hesitate at the thresholds of laboratories. IEEE has, thus, taken a step forth to help promote all the women across the globe with IEEE Women In Engineering.
+* Women Who Code Delhi - They envision a world where women are proportionally represented as technical leaders, executives, founders, VCs, board members, and software engineers.
