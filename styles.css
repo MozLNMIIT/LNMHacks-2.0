@@ -788,11 +788,8 @@ a img {
   -webkit-animation-name: change;
   -webkit-animation-duration: 6s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: change;
   animation-name: change;
-  -webkit-animation-duration: 6s;
   animation-duration: 6s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 
   -webkit-filter: blur(0.000001);
