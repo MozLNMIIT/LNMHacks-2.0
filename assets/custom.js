@@ -16,5 +16,26 @@ sr.reveal('.scrollr-3', { duration: 2900 });
 
 
 smoothScroll.init();
+    smooth_scroll();
 
 });
+
+
+function smooth_scroll(){
+
+    $('.mdl-navigation__link.ufxd-smooth-scroll').each(function(i,e){
+        var $a = $(e);
+        var store_position = $( $a.attr('href') ).offset().top;
+
+        $a.data('offsettop', store_position - 80);
+
+        $a.click( function(e){
+
+            $('.lnmhacks-content.mdl-layout__content').animate({
+                scrollTop: $a.data('offsettop')
+            }, 600 );
+            return false;
+        } );
+    });
+
+}
