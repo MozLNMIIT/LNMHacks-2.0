@@ -1002,5 +1002,14 @@ body::-webkit-scrollbar-thumb
     display: inline-flex;
 }
 
+.past_sponsor img, .clubs_participating img, .powered_by img {
+  transition: all 0.5s ease 0s;
+}
+
+.past_sponsor img:hover, .clubs_participating img:hover, .powered_by img:hover{
+  transform: scale(1.15) rotate(-1.5deg);
+}
+
 
 /*=====  End of Cards Override Sponosrs  ======*/
+
