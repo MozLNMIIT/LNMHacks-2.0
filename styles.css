@@ -993,3 +993,14 @@ body::-webkit-scrollbar-thumb
 }
 
 /*=====  End of Cards Override Sponosrs  ======*/
+
+.center-img {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
