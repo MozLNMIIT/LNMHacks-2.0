@@ -41,7 +41,15 @@ a img{
 /*=====  End of Themed Selection  ======*/
 
 
-
+.sponsor-item:hover img{
+-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 .lnmhacks-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
