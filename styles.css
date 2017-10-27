@@ -400,12 +400,6 @@ a img{
   box-shadow: 0px 0px 20px 0px rgba(214, 214, 214, 0.8);
 }
 
-.lnmhacks-customized-section-text .row:last-child > .past_sponsor:nth-child(4) img {
-  transform: translateY(-50%);
-  top: 50%;
-  position: relative;
-}
-
 .lnmhacks-customized-section-text {
   
   margin-left: auto;
@@ -993,13 +987,17 @@ body::-webkit-scrollbar-thumb
 }
 
 /* Fix for Sponsors Logo Alignment */
-.past_sponsor img {
-    vertical-align: middle !important;
-    margin: auto;
-    max-height: 250px;
-}
 .past_sponsor {
-    display: inline-flex;
+    height: 15em;
+    position: relative;
+}
+.past_sponsor img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 
