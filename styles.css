@@ -992,4 +992,15 @@ body::-webkit-scrollbar-thumb
   padding: 0;
 }
 
+/* Fix for Sponsors Logo Alignment */
+.past_sponsor img {
+    vertical-align: middle !important;
+    margin: auto;
+    max-height: 250px;
+}
+.past_sponsor {
+    display: inline-flex;
+}
+
+
 /*=====  End of Cards Override Sponosrs  ======*/
