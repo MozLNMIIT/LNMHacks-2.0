@@ -395,9 +395,9 @@ a img{
 }
 
 .sponsors .lnmhacks-sponsors-section-image .col-sm-3:hover, .past_sponsor:hover{
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
-  -moz-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
-  box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(214, 214, 214, 0.8);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(214, 214, 214, 0.8);
+  box-shadow: 0px 0px 20px 0px rgba(214, 214, 214, 0.8);
 }
 
 .lnmhacks-customized-section-text .row:last-child > .past_sponsor:nth-child(4) img {
