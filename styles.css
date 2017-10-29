@@ -394,25 +394,6 @@ a img{
   text-align: center;
 }
 
-/*.sponsors .lnmhacks-sponsors-section-image .col-sm-3:hover, .past_sponsor:hover{*/
-  /*-webkit-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);*/
-  /*-moz-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);*/
-  /*box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);*/
-/*}*/
-
-.past_sponsor:hover{
--webkit-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
--moz-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
-box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
-}
-
-
-.lnmhacks-customized-section-text .row:last-child > .past_sponsor:nth-child(4) img {
-  transform: translateY(-50%);
-  top: 50%;
-  position: relative;
-}
-
 .lnmhacks-customized-section-text {
   
   margin-left: auto;
@@ -453,8 +434,6 @@ box-shadow: inset 0px 0px 10px 0px rgba(164,165,166,1);
   background-size: cover;
   min-height: 400px;
 }
-
-.lnmhacks-sponsors-section-image 
 
 .lnmhacks-more-section {
   padding: 80px 0;
@@ -999,40 +978,4 @@ body::-webkit-scrollbar-thumb
   padding: 0;
 }
 
-/* Fix for Sponsors Logo Alignment */
-.past_sponsor img {
-    vertical-align: middle !important;
-    margin: auto;
-    max-height: 250px;
-}
-.past_sponsor {
-    display: inline-flex;
-}
-
-
 /*=====  End of Cards Override Sponosrs  ======*/
-
-
-
-
-/************** Sponsor And Past Sponsor Hover Animation *********/
-
-.sponsors .lnmhacks-sponsors-section-image .col-sm-3 a{
-  display: block;
-  height: 100%;
-  width: 100%;
-  border: transparent 1px solid;
-}
-
-
-.sponsors .lnmhacks-sponsors-section-image .col-sm-3 a:hover{
-  /*border: #2ec3db 1px solid;*/
-  border: rgba(46, 195, 219, 0.6) 1px solid;
-  background-color: rgba(48, 218, 242, 0.2);
-  transition: all 900ms;
-  -webkit-transition: all 900ms;
-  margin: 0;
-}
-
-
-
